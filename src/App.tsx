@@ -11,10 +11,10 @@ export default function App() {
         <ThemeProvider theme={theme}>
             <Box>
                 <Routes>
-                    <Route path="gbm/" element={<HomePage />} />
-                    <Route path="gbm/database" element={<GBMDatabase />} />
-                    <Route path="gbm/search" element={<GBMSearch />} />
-                    <Route path="gbm/about" element={<About />} />
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/database" element={<GBMDatabase />} />
+                    <Route path="/search" element={<GBMSearch />} />
+                    <Route path="/about" element={<About />} />
                 </Routes>
             </Box>
         </ThemeProvider>

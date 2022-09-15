@@ -41,7 +41,7 @@ export default function HeaderFooter(props: TProps) {
     const navigate = useNavigate();
 
     const onNavi = (id: string) => {
-        navigate(`/gbm/${id}`, { replace: false });
+        navigate(`/${id}`, { replace: false });
     };
 
     const handleDrawerToggle = () => {
